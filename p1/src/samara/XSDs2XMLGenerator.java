@@ -100,5 +100,5 @@ public class XSDs2XMLGenerator {
 
     public static void main(String[] args) {
 		System.out.println(generate(getAllFilesInDir(XSDs2XMLGenerator.class.getResource("../xsd").getFile(), ".xsd"), "FindGibddRequestType"));
-    }
+    }1
 }
