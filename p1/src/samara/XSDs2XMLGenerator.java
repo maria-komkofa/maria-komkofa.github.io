@@ -38,7 +38,7 @@ public class XSDs2XMLGenerator {
 			System.out.println("Can not load schema file: " + schemaFile + ": ");
 			return null;
 		    }
-		}1
+		}
 
 		XmlObject[] schemas = (XmlObject[]) sdocs.toArray(new XmlObject[sdocs.size()]);
 
@@ -51,7 +51,7 @@ public class XSDs2XMLGenerator {
 			System.out.println("Compilation error!");
 			return null;
 		    }
-		}2
+		}
 
 		if (sts == null) {
 		    System.out.println("No Schemas to process.");
