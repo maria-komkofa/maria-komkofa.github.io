@@ -51,7 +51,7 @@ public class XSDs2XMLGenerator {
 			System.out.println("Compilation error!");
 			return null;
 		    }
-		}
+		}2
 
 		if (sts == null) {
 		    System.out.println("No Schemas to process.");
