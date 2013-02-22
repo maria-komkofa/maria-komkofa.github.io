@@ -17,7 +17,7 @@ import org.apache.xmlbeans.impl.xsd2inst.SampleXmlUtil;
  */
 public class XSDs2XMLGenerator {
 
-    /**
+    /**2
      * Метод для генерации XML инстанса по XSD схемам.
      * 
      * @param schemaFiles
@@ -100,5 +100,5 @@ public class XSDs2XMLGenerator {
 
     public static void main(String[] args) {
 		System.out.println(generate(getAllFilesInDir(XSDs2XMLGenerator.class.getResource("../xsd").getFile(), ".xsd"), "FindGibddRequestType"));
-    }1
+    }
 }
