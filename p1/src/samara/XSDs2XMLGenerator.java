@@ -13,7 +13,7 @@ import org.apache.xmlbeans.XmlOptions;
 import org.apache.xmlbeans.impl.xsd2inst.SampleXmlUtil;
 
 /**
- * Класс для генерации XML инстанса (т.е. корректной XML) по XSD схемам.
+ * Класс для генерации XML инстанса (т.е. корректной XML) по XSD схемам.9999999999999
  */
 public class XSDs2XMLGenerator {
 
